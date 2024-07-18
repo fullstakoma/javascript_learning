@@ -63,7 +63,7 @@ function interestCalc(japaneseYen) {
 function bankAccount(balance) {
   const futureBalance = interestCalc(balance);
   return `あなたの預金${balance}円は金利${
-    futureBalance / balance
+    ((futureBalance - balance) / balance) * 100
   }%のおかげで${futureBalance}円になりました。よかったね。`;
 }
 
