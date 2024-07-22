@@ -21,3 +21,12 @@ for (let i = 0; i < btnsOpenModal.length; i++)
 //どのModalを押しても消せる
 btnCloseModal.addEventListener("click", closeModal);
 overlay.addEventListener("click", closeModal);
+
+//escape keyで消す
+document.addEventListener("keydown", function (e) {
+  if (e.key === "Escape") {
+    if (!modal.classList.contains("hidden")) {
+      this.closeModal();
+    }
+  }
+});
