@@ -1,3 +1,4 @@
+"use strict";
 console.log(34);
 console.log("Yamada Taro");
 

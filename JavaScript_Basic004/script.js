@@ -1,3 +1,4 @@
+"use strict";
 const yourAge = 19;
 if (yourAge >= 20) {
   console.log("お酒を飲んで大丈夫な年齢");

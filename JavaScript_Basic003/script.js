@@ -1,3 +1,4 @@
+"use strict";
 const myName = "Tanaka";
 const myJob = "Teacher";
 const birthYear = 1980;

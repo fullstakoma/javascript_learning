@@ -1,3 +1,4 @@
+"use strict";
 const personalInformation = {
   name: "郷田たけし",
   age: 38,

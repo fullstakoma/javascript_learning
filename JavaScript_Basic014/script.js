@@ -1,3 +1,4 @@
+"use strict";
 //基本的な話
 const arraySample = [4, 5, 6];
 //悪い例

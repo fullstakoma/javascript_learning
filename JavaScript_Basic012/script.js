@@ -1,3 +1,4 @@
+"use strict";
 const arrySample = [1, 2, 3, 4];
 const arryElement_1 = arrySample[0];
 const arryElement_2 = arrySample[1];
